@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "id": "OpenCommandPalette",
+      "type": "ExecuteFunction",
+      "name": "Open the Cellwright command palette"
+    },
+    {
+      "id": "UndoLastRun",
+      "type": "ExecuteFunction",
+      "name": "Undo the last Cellwright run"
+    }
+  ],
+  "shortcuts": [
+    {
+      "action": "OpenCommandPalette",
+      "key": {
+        "default": "Ctrl+Shift+Alt+P",
+        "windows": "Ctrl+Shift+P",
+        "mac": "Command+Shift+P"
+      }
+    },
+    {
+      "action": "UndoLastRun",
+      "key": {
+        "default": "Ctrl+Shift+Alt+Z"
+      }
+    }
+  ]
+}
